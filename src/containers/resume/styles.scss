@@ -1,0 +1,31 @@
+.resume{
+    height: 100%;
+}
+.timeline{
+    display: flex;
+    width:100%;
+    padding:20px;
+    font-size: 10px;
+
+    &__experience,&__education{
+        width:50%;
+        gap:5rem;
+        font-size: 18px;
+
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        &__header-text{
+            display:inline-block;
+            color: var(--yellow-theme-main-color);
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 1rem;
+            letter-spacing: 0.5px;
+            position: relative;
+            text-decoration: uppercase;
+            padding: 5px 10px;
+            border-bottom: 2px solid var(--yellow-theme-main-color);
+        }
+    }
+}
